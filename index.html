@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<meta charset="UTF-8">
+	<title>Appaloosa</title>
+	<link rel="stylesheet" href="css/font-awesome/css/font-awesome.css">
+	<link rel="stylesheet" type="text/css" href="css/normalize.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<nav class="menu">
+		<ul class="list-unstyled list-inline">
+			<li class="menu-item"><a href="#"><i class="fa fa-bars"></i> Octo store</a></li>
+			<li class="menu-item"><a href="#"> APPLICATIONS </a></li>
+			<li class="menu-item active"> <a href="#"> USERS</a></li>
+			<li class="menu-item"><a href="#">GROUPS</a></li>
+			<li class="menu-item"><a href="#">STATISTICS</a></li>
+			<li class="menu-item"><a href="#">PARAMETERS</a></li>
+			<li class="menu-item"><a href="#">DEVICE</a></li>
+		</ul>
+		<ul class="list-unstyled list-inline">
+			<li class="menu-item"><a href="#"><i class="fa fa-1x fa-question-circle-o"></i></a></li>
+			<li class="menu-item"><a href="#"><i class="fa fa-user"></i></a></li>
+		</ul>
+	</nav>
+	<div class="content">
+		<aside class="search-menu">
+			<div class="searchbar-grey">
+				<i class="fa fa-search fa-2x"></i>
+				<input type="text" />
+			</div>
+			<div class="check-group">
+				<h3> UTILISATEURS </h3>
+				<ul class="search-checks list-unstyled list-unspaced">
+					<li><label><input type="checkbox" /> Tous</label></li>
+					<li><label><input type="checkbox" /> Admin</label></li>
+					<li><label><input type="checkbox" /> Devices Black-listés</label></li>
+					<li><label><input type="checkbox" /> Date de dernière connexion</label></li>
+				</ul>
+			</div>
+			
+			<div class="calendar-grey">
+				<h3>DERNIERE CONNEXION</h3>
+				<input type="date" max="2016-05-17" />
+				<input type="date"/>
+			</div>
+			<div class="check-group">
+				<h3> SYSTEME D'EXPLOITATION </h3>
+				<ul class="search-checks list-unstyled list-unspaced">
+					<li><label><input type="checkbox" /> Android</label></li>
+					<li><label><input type="checkbox" /> iOS</label></li>
+					<li><label><input type="checkbox" /> Windows Phone</label></li>
+				</ul>
+			</div>
+		</aside>
+		<main class="main-table">
+			<div class="main-head">
+				<h2>UTILISATEURS <span>(368)</span></h2>
+				<ul class="list-unstyled list-inline">
+					<li><button class="btn btn-grey"><i class="fa fa-cloud-download"></i> IMPORT USERS <i class="fa fa-chevron-down"></i></button></li>
+					<li><button class="btn btn-green"><i class="fa fa-user-plus"></i> ADD A USER</button></li>
+				</ul>
+			</div>
+			<div class="main-body">
+				<table>
+					<thead>
+						<tr>
+							<th></th>
+							<th> Prénom <i class="fa fa-chevron-down"></i></th>
+							<th> Nom <i class="fa fa-chevron-down"></i></th>
+							<th> Adresse e-mail <i class="fa fa-chevron-down"></i></th>
+							<th> Dernère connexion <i class="fa fa-chevron-down"></i></th>
+							<th> Admin <i class="fa fa-chevron-down"></i></th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td><input type="checkbox"></td>
+							<td>Jean michel</td>
+							<td>Bonomi</td>
+							<td>jean.michel.bonomi@toto.com</td>
+							<td>17 novembre 2015 <span class="time-grey">9:00AM</span></td>
+							<td> <i class="fa fa-check admin-check"></i></td>
+						</tr>
+
+						<tr>
+							<td><input type="checkbox"></td>
+							<td>Patrice</td>
+							<td>Leymarie</td>
+							<td>patleym@abc.com</td>
+							<td>17 novembre 2015 <span class="time-grey">8:59AM</span></td>
+							<td class="admin-check"></td>
+						</tr>
+						<tr>
+							<td><input type="checkbox"></td>
+							<td>Kevin</td>
+							<td>Cudennec</td>
+							<td>kevincdnc@hotmail.ru</td>
+							<td>13 novembre 2015 <span class="time-grey">14:30PM</span></td>
+							<td><i class="fa fa-check admin-check"></td>
+						</tr>
+						<tr>
+							<td><input type="checkbox"></td>
+							<td>Tommy</td>
+							<td>Roussel</td>
+							<td>Tommyroussel@aol.com</td>
+							<td>13 novembre 2015 <span class="time-grey">14:29PM</span></td>
+							<td> </td>
+						</tr>
+						<tr>
+							<td><input type="checkbox"></td>
+							<td>Vincent</td>
+							<td>Tantardini</td>
+							<td>Vince.t@alibaba.com</td>
+							<td>13 novembre 2015 <span class="time-grey">14:29PM</span></td>
+							<td> </td>
+						</tr>
+						<tr>
+							<td><input type="checkbox"></td>
+							<td>Carlos</td>
+							<td>Fereira Da Costa</td>
+							<td>Carlos-fereira@rubocop.com</td>
+							<td>13 novembre 2015 <span class="time-grey">14:29PM</span></td>
+							<td> </td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</main>
+	</div>
+</body>
+</html>
